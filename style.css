@@ -181,6 +181,10 @@ body{
     box-shadow: #00000029 0 1px 4px;
 }
 
+.item:hover{
+    transform: translate(-5px);
+    box-shadow: rgba(0,0,0,0.1)0px 1px 10px;
+}
 
 @media (max-width: 75em) {
     html {
